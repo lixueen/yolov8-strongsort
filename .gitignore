@@ -2,3 +2,47 @@
 *.mp4
 weights/*
 .trunk/*
+# Python 环境相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+conda-env/
+yolo-reid-track/  # 你的虚拟环境名称（如果有）
+
+# 视频/图片文件
+*.mp4
+*.avi
+*.png
+*.jpg
+*.jpeg
+demo_test2.mp4  # 你的测试视频
+
+# 权重文件（可选，若权重较大可忽略）
+weights/
+*.pt
+*.pth
+
+# 日志和缓存
+logs/
+*.log
+.DS_Store
+.vscode/  # 编辑器配置（可选）
+Sentry/  # 错误跟踪日志
